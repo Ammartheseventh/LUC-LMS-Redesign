@@ -1,11 +1,12 @@
-import './App.css'
+import Header from './components/Header'
+import Dashboard from './components/Dashboard'
 
 function App() {
   return (
-    <>
-      <h1>Redesign Project</h1>
-      <p>Landing Page + LMS Dashboard</p>
-    </>
+    <div className="flex flex-col items-center bg-slate-50 text-slate-800 antialiased min-h-screen font-sans selection:bg-brand-100 selection:text-brand-900">
+      <Header />
+      <Dashboard />
+    </div>
   )
 }
 
