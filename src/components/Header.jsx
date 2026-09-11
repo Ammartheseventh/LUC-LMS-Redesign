@@ -1,12 +1,14 @@
+import myLLSLogo from '../assets/myLLS_logo.png'
+
 function Header() {
   return (
-    <header className="w-full sticky top-0 z-40 bg-[#072242] border-b border-[#0b3c6d] shadow-md">
+    <header className="w-full sticky top-0 z-40 bg-[#001C3A] border-b border-[#0b3c6d] shadow-md">
       <div className="max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 gap-4">
 
           {/* Left Brand & Crest */}
           <div className="flex items-center gap-3">
-            <img alt="Lincoln University College myLLS Logo" className="h-10 w-auto object-contain" src="/src/assets/myLLS_logo.png" />
+            <img alt="Lincoln University College myLLS Logo" className="h-10 w-auto object-contain" src={myLLSLogo} />
             <div className="flex flex-col">
               <span className="w-fit text-[11px] font-semibold px-1.5 py-0.5 rounded bg-sky-500/20 text-sky-300 border border-sky-400/30">STUDENT PORTAL</span>
               <span className="text-[11px] text-slate-300 tracking-wide font-medium">Lincoln University College</span>

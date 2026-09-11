@@ -1,11 +1,11 @@
-function Dashboard() {
+function Hero() {
 
   return (
 
-    <section className="w-full px-4 sm:px-6 lg:px-8 py-6">
+    <section className="w-full px-4 sm:px-6 lg:px-8">
       <div className="max-w-[1680px] mx-auto bg-white rounded-2xl border border-slate-200/90 shadow-sm overflow-hidden flex flex-col xl:flex-row xl:items-center justify-between gap-6 px-8 py-10">  
       
-        <div className="space-y-3 ">
+        <div className="space-y-3">
           <div className="flex flex-wrap items-center gap-2">
             <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200/60">
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
@@ -70,13 +70,13 @@ function Dashboard() {
               <span className="px-2 py-0.5 rounded text-[10px] font-semibold bg-amber-50 text-amber-700 border border-amber-200/60 shrink-0">Notice</span>
             </div>
             <div className="flex flex-col min-[420px]:flex-row mt-4 gap-2">
-              <button className="bg-[#061e3b] hover:bg-[#072242] text-white text-xs font-semibold py-2 px-3 rounded-lg shadow-sm transition flex items-center justify-center gap-1.5">
+              <button className="bg-[#1D4879] hover:bg-[#00315E] text-white text-xs font-semibold py-2 px-3 rounded-lg shadow-sm transition flex items-center justify-center gap-1.5 cursor-pointer">
                 <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
                 </svg>
                 Pay Online
               </button>
-              <button className="bg-slate-50 hover:bg-slate-100 text-slate-700 border border-slate-200 text-xs font-medium py-2 px-2 rounded-lg transition flex items-center justify-center gap-1">
+              <button className="bg-slate-50 hover:bg-slate-100 text-slate-700 border border-slate-200 text-xs font-medium py-2 px-2 rounded-lg transition flex items-center justify-center gap-1 cursor-pointer">
                 <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
                 </svg>Upload Slip
@@ -94,4 +94,4 @@ function Dashboard() {
 
 }
 
-export default Dashboard
+export default Hero
