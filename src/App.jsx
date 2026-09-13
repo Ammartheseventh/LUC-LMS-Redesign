@@ -1,13 +1,14 @@
 import { Routes, Route, Navigate } from 'react-router'
 import AppShell from './components/AppShell'
 import Placeholder from './components/Placeholder'
+import Dashboard from './components/Dashboard'
 
 function App() {
   return (
     <Routes>
       <Route element={<AppShell />}>
         <Route path="/" element={<Navigate to="/dashboard" replace />} />
-        <Route path="/dashboard" element={<Placeholder title="Dashboard" />} />
+        <Route path="/dashboard" element={<Dashboard />}/>
         <Route path="/programme" element={<Placeholder title="My Programme" />} />
         <Route path="/applications" element={<Placeholder title="All Applications" />} />
         <Route path="/visa-renewal" element={<Placeholder title="Visa Renewal" />} />

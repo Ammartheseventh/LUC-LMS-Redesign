@@ -9,8 +9,10 @@ export default function AppShell() {
       <Header />
       <Dashboard />
       <Navigation />
-      <main className="w-full">
-        <Outlet />
+      <main className="w-full px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1680px] mx-auto">
+          <Outlet />
+        </div>
       </main>
     </div>
   )

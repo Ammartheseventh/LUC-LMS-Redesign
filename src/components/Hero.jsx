@@ -23,7 +23,7 @@ function Hero() {
           </div>
           <div>
             <h1 className="text-2xl lg:text-3xl font-bold text-slate-900 tracking-tight">
-              Welcome back, <span className="text-brand-700">DABWAN MOHAMMED TAHA MOHAMMED</span>
+              Welcome back, <span className="text-brand-300">DABWAN MOHAMMED TAHA MOHAMMED</span>
             </h1>
             <p className="text-sm text-slate-600 mt-1"><span className="font-medium text-slate-500">
               Programme:</span> Bachelor of Mechatronics Engineering Technology with Honours
@@ -70,7 +70,7 @@ function Hero() {
               <span className="px-2 py-0.5 rounded text-[10px] font-semibold bg-amber-50 text-amber-700 border border-amber-200/60 shrink-0">Notice</span>
             </div>
             <div className="flex flex-col min-[420px]:flex-row mt-4 gap-2">
-              <button className="bg-[#1D4879] hover:bg-[#00315E] text-white text-xs font-semibold py-2 px-3 rounded-lg shadow-sm transition flex items-center justify-center gap-1.5 cursor-pointer">
+              <button className="bg-brand-300 hover:bg-brand-200 text-white text-xs font-semibold py-2 px-3 rounded-lg shadow-sm transition flex items-center justify-center gap-1.5 cursor-pointer">
                 <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
                 </svg>
