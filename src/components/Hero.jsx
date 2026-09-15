@@ -23,22 +23,22 @@ function Hero() {
           </div>
           <div>
             <h1 className="text-2xl lg:text-3xl font-bold text-slate-900 tracking-tight">
-              Welcome back, <span className="text-brand-300">DABWAN MOHAMMED TAHA MOHAMMED</span>
+              Welcome back, <span className="text-brand-200">DABWAN MOHAMMED TAHA MOHAMMED</span>
             </h1>
-            <p className="text-sm text-slate-600 mt-1"><span className="font-medium text-slate-500">
-              Programme:</span> Bachelor of Mechatronics Engineering Technology with Honours
+            <p className="text-sm text-slate-600 mt-1">
+              <span className="font-medium text-slate-500">Programme:</span> Bachelor of Mechatronics Engineering Technology with Honours
             </p>
           </div>
-          <div className="flex flex-wrap items-center gap-4 pt-1 text-xs font-medium text-brand-700">
+          <div className="flex flex-wrap items-center gap-4 pt-1 text-xs font-medium text-brand-300">
             <a className="inline-flex items-center gap-1.5 hover:underline" href="#">
-              <svg className="w-3.5 h-3.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-3.5 h-3.5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
               </svg>
               Mentor &amp; Coordinator Details
             </a>
-            <span className="text-slate-300">•</span>
+            <span className="text-slate-300 hidden sm:inline">•</span>
             <a className="inline-flex items-center gap-1.5 hover:underline" href="#">
-              <svg className="w-3.5 h-3.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-3.5 h-3.5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
               </svg>
               Update Contact Details
@@ -57,7 +57,7 @@ function Hero() {
               <div className="text-[11px] text-slate-400">Expiry Date</div>
               <div className="text-base font-bold text-slate-800 font-mono mt-0.5">2027-07-29</div>
             </div>
-            <a className="mt-3 text-xs text-brand-700 hover:text-brand-900 font-medium inline-flex items-center gap-1" href="#">Renewal tracking →</a>
+            <a className="mt-3 text-xs text-brand-300 hover:underline font-medium inline-flex items-center gap-1" href="#">Renewal tracking →</a>
           </div>
 
           <div className="flex-1 bg-white border border-slate-200/90 rounded-xl p-4 min-[380px]:min-w-[260px] flex flex-col justify-between shadow-xs">
