@@ -62,7 +62,7 @@ const navItems = [
 function TabIcon({ path, active }) {
   return (
     <svg
-      className={active ? "w-4 h-4" : "w-4 h-4 text-slate-400"}
+      className={active ? "w-4 h-4" : "w-4 h-4 text-slate-400 group-hover:text-brand-300"}
       fill="none"
       stroke="currentColor"
       viewBox="0 0 24 24"
@@ -78,7 +78,7 @@ function TabIcon({ path, active }) {
   )
 }
 
-export default function Navigation() {
+function Navigation() {
   const scrollRef = useRef(null)
   const [canScrollLeft, setCanScrollLeft] = useState(false)
   const [canScrollRight, setCanScrollRight] = useState(false)
@@ -109,7 +109,7 @@ export default function Navigation() {
   const scrollByAmount = (direction) => {
     const el = scrollRef.current
     if (!el) return
-    const amount = Math.max(el.clientWidth * 0.75, 160)
+    const amount = Math.max(el.clientWidth * 0.5, 160)
     el.scrollBy({
       left: direction === "left" ? -amount : amount,
       behavior: "smooth",
@@ -118,6 +118,7 @@ export default function Navigation() {
 
   return (
     <div className="relative w-full px-4 sm:px-6 lg:px-8">
+
       {/* Left arrow + fade (desktop only) */}
       {canScrollLeft && (
         <div className="pointer-events-none absolute inset-y-0 left-6 lg:left-8 z-10 hidden md:flex items-center">
@@ -134,7 +135,6 @@ export default function Navigation() {
           </button>
         </div>
       )}
-
       {/* Right arrow + fade (desktop only) */}
       {canScrollRight && (
         <div className="pointer-events-none absolute inset-y-0 right-6 lg:right-8 z-10 hidden md:flex items-center justify-end">
@@ -163,9 +163,7 @@ export default function Navigation() {
 
       <nav
         ref={scrollRef}
-        className="max-w-[1680px] mx-auto bg-white rounded-xl border border-slate-200/80 p-1.5 shadow-sm overflow-x-auto snap-x snap-proximity overscroll-x-contain touch-pan-x [scrollbar-width:none] [-ms-overflow-style:none] [-webkit-overflow-scrolling:touch] [&::-webkit-scrollbar]:hidden"
-        data-purpose="primary-tabs"
-      >
+        className="max-w-[1680px] mx-auto bg-white rounded-xl border border-slate-200/80 p-1.5 shadow-sm overflow-x-auto snap-x snap-proximity overscroll-x-contain touch-pan-x scrollbar-none [-ms-overflow-style:none] [-webkit-overflow-scrolling:touch] [&::-webkit-scrollbar]:hidden">
         <div className="flex items-center justify-center gap-1 min-w-max px-1 py-0.5">
           {navItems.map((item) => (
             <NavLink
@@ -173,8 +171,8 @@ export default function Navigation() {
               to={item.to}
               className={({ isActive }) =>
                 isActive
-                  ? "snap-start px-3.5 py-1.5 rounded-lg bg-[#1D4879] hover:bg-[#00315E] text-white text-xs font-medium flex items-center gap-2 shrink-0"
-                  : "snap-start px-3.5 py-1.5 rounded-lg text-slate-600 hover:text-[#1D4879] hover:bg-slate-50 text-xs font-medium flex items-center gap-2 transition shrink-0"
+                  ? "snap-start px-3.5 py-1.5 rounded-lg bg-brand-300 hover:bg-brand-200 text-white text-xs font-medium flex items-center gap-2 shrink-0"
+                  : "snap-start px-3.5 py-1.5 rounded-lg text-slate-600 hover:text-brand-300 hover:bg-slate-50 text-xs font-medium flex items-center gap-2 transition shrink-0 group"
               }
             >
               {({ isActive }) => (
@@ -190,3 +188,5 @@ export default function Navigation() {
     </div>
   )
 }
+
+export default Navigation
