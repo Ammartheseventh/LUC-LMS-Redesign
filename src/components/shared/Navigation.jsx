@@ -163,7 +163,7 @@ function Navigation() {
 
       <nav
         ref={scrollRef}
-        className="max-w-[1680px] mx-auto bg-white rounded-xl border border-slate-200/80 p-1.5 shadow-sm overflow-x-auto snap-x snap-proximity overscroll-x-contain touch-pan-x scrollbar-none [-ms-overflow-style:none] [-webkit-overflow-scrolling:touch] [&::-webkit-scrollbar]:hidden">
+        className="max-w-[1680px] mx-auto bg-white rounded-lg border border-slate-200/80 p-1.5 shadow-sm overflow-x-auto snap-x snap-proximity overscroll-x-contain touch-pan-x scrollbar-none [-ms-overflow-style:none] [-webkit-overflow-scrolling:touch] [&::-webkit-scrollbar]:hidden">
         <div className="flex items-center justify-center gap-1 min-w-max px-1 py-0.5">
           {navItems.map((item) => (
             <NavLink

@@ -1,7 +1,7 @@
 import { Routes, Route, Navigate } from 'react-router'
-import AppShell from './components/AppShell'
-import Placeholder from './components/Placeholder'
-import Dashboard from './components/Dashboard'
+import AppShell from './AppShell'
+import Placeholder from '../components/shared/Placeholder'
+import Dashboard from '../components/sections/dashboard/Dashboard'
 
 function App() {
   return (

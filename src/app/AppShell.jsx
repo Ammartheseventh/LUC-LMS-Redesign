@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router'
-import Header from './Header'
-import Hero from './Hero'
-import Navigation from './Navigation'
+import Header from '../components/shared/Header'
+import Hero from '../components/shared/Hero'
+import Navigation from '../components/shared/Navigation'
 
 export default function AppShell() {
   return (

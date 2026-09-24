@@ -3,7 +3,7 @@ function Hero() {
   return (
 
     <section className="w-full px-4 sm:px-6 lg:px-8">
-      <div className="max-w-[1680px] mx-auto  px-8 py-8 bg-white rounded-2xl border border-slate-200/90 shadow-sm overflow-hidden flex flex-col xl:flex-row xl:items-center justify-between gap-6">  
+      <div className="max-w-[1680px] mx-auto  px-8 py-8 bg-white rounded-lg border border-slate-200/90 shadow-sm overflow-hidden flex flex-col xl:flex-row xl:items-center justify-between gap-6">  
       
         <div className="space-y-3">
 
@@ -47,7 +47,7 @@ function Hero() {
 
         <div className="flex flex-col sm:flex-row items-stretch gap-4 w-full xl:w-auto">
 
-          <div className="flex-1 bg-slate-50/70 border border-slate-200/80 rounded-xl p-4 flex flex-col justify-between min-w-[210px]">
+          <div className="flex-1 bg-slate-50/70 border border-slate-200/80 rounded-lg p-4 flex flex-col justify-between min-w-[210px]">
             <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">VISA STATUS</span>
             <div>
               <div className="text-[11px] text-slate-400">Expiry Date</div>
@@ -56,7 +56,7 @@ function Hero() {
             <a className="mt-3 text-xs text-brand-300 hover:underline font-medium inline-flex items-center gap-1" href="#">Renewal tracking →</a>
           </div>
 
-          <div className="flex-1 bg-white border border-slate-200/90 rounded-xl p-4 min-[380px]:min-w-65 flex flex-col justify-between shadow-xs">
+          <div className="flex-1 bg-white border border-slate-200/90 rounded-lg p-4 min-[380px]:min-w-65 flex flex-col justify-between shadow-xs">
 
             <div className="flex flex-col items-start gap-2 mb-2">
               <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider block">TUITION FEES</span>

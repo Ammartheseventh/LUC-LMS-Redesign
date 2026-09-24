@@ -1,6 +1,6 @@
 function DisciplinaryActionCard() {
   return (
-    <div className="bg-white rounded-2xl border border-slate-200/90 shadow-sm p-5 card-transition">
+    <div className="bg-white rounded-lg border border-slate-200/90 shadow-sm p-5 card-transition">
 
       <div className="flex items-center justify-between pb-3 border-b border-slate-100">
         <div className="flex items-center gap-2">
@@ -16,15 +16,15 @@ function DisciplinaryActionCard() {
       </div>
 
       <div className="grid grid-cols-3 gap-3 mt-4">
-        <div className="p-3 bg-slate-50/60 rounded-xl text-center border border-slate-100">
+        <div className="p-3 bg-slate-50/60 rounded-lg text-center border border-slate-100">
           <span className="block text-xl font-bold text-slate-800">0</span>
           <span className="text-[11px] text-slate-500 font-medium block mt-1">Warning Letters</span>
         </div>
-        <div className="p-3 bg-slate-50/60 rounded-xl text-center border border-slate-100">
+        <div className="p-3 bg-slate-50/60 rounded-lg text-center border border-slate-100">
           <span className="block text-xl font-bold text-slate-800">0</span>
           <span className="text-[11px] text-slate-500 font-medium block mt-1">Attendance Appeals</span>
         </div>
-        <div className="p-3 bg-slate-50/60 rounded-xl text-center border border-slate-100">
+        <div className="p-3 bg-slate-50/60 rounded-lg text-center border border-slate-100">
           <span className="block text-xl font-bold text-slate-800">0</span>
           <span className="text-[11px] text-slate-500 font-medium block mt-1">Probation Notices</span>
         </div>

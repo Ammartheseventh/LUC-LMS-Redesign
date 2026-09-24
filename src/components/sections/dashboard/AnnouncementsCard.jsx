@@ -181,7 +181,7 @@ function AnnouncementsCard() {
   }
 
   return (
-    <div className="bg-white rounded-2xl border border-slate-200/90 shadow-sm p-5 flex flex-col">
+    <div className="bg-white rounded-lg border border-slate-200/90 shadow-sm p-5 flex flex-col">
 
       <div className="flex items-center justify-between pb-3 border-b border-slate-100">
 
@@ -234,7 +234,7 @@ function AnnouncementsCard() {
             {page.map((announcement) => (
               <article
                 key={announcement.id}
-                className="flex flex-col gap-2 p-3.5 rounded-xl border border-slate-100 bg-slate-50/50 hover:bg-slate-50 transition"
+                className="flex flex-col gap-2 p-3.5 rounded-lg border border-slate-100 bg-slate-50/50 hover:bg-slate-50 transition"
               >  
                 <p className="text-xs text-slate-400 font-mono">
                   {announcement.date}

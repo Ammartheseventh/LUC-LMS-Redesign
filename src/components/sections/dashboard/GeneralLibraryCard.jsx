@@ -1,6 +1,6 @@
 function GeneralLibraryCard() {
   return (
-    <div className="bg-white rounded-2xl border border-slate-200/90 shadow-sm p-5 card-transition flex flex-col justify-between">
+    <div className="bg-white rounded-lg border border-slate-200/90 shadow-sm p-5 card-transition flex flex-col justify-between">
 
       <div className="flex items-center justify-between pb-3 border-b border-slate-100">
         <div className="flex items-center gap-2">
@@ -13,7 +13,7 @@ function GeneralLibraryCard() {
         </div>
       </div>
 
-      <div className="p-5 mt-4 rounded-xl border border-slate-100 bg-slate-50/60 flex items-center justify-between gap-3">
+      <div className="p-5 mt-4 rounded-lg border border-slate-100 bg-slate-50/60 flex items-center justify-between gap-3">
         <div className="flex items-center gap-2.5">
           <div className="w-10 h-10 rounded-lg bg-brand-300 text-white flex items-center justify-center font-bold text-sm shrink-0">
             LDL

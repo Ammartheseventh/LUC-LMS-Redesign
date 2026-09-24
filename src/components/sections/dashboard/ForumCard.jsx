@@ -108,7 +108,7 @@ function ForumCard() {
   }
 
   return (
-    <div className="bg-white rounded-2xl border border-slate-200/90 shadow-sm p-5 card-transition flex flex-col">
+    <div className="bg-white rounded-lg border border-slate-200/90 shadow-sm p-5 card-transition flex flex-col">
 
       <div className="flex items-center justify-between pb-3 border-b border-slate-100">
 
@@ -166,7 +166,7 @@ function ForumCard() {
             {page.map((thread) => (
               <article
                 key={thread.id}
-                className="flex flex-col gap-2 p-3.5 rounded-xl border border-slate-100 bg-slate-50/50 hover:bg-slate-50 transition"
+                className="flex flex-col gap-2 p-3.5 rounded-lg border border-slate-100 bg-slate-50/50 hover:bg-slate-50 transition"
               >
                 <h3 className="text-xs font-semibold text-slate-800 leading-snug line-clamp-1">
                   {thread.title}

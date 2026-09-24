@@ -1,6 +1,6 @@
 function StudentEssentialsCard() {
   return (
-    <div className="bg-white rounded-2xl border border-slate-200/90 shadow-sm p-5 card-transition" data-purpose="essential-links-card">
+    <div className="bg-white rounded-lg border border-slate-200/90 shadow-sm p-5 card-transition" data-purpose="essential-links-card">
 
       <div className="flex items-center justify-between pb-3 border-b border-slate-100">
         <div className="flex items-center gap-2">
